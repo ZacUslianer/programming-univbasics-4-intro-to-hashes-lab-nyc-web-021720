@@ -29,7 +29,7 @@ end
 
 def read_from_hash(hash, key)
   new_hash = {
-    key => value,
+    key: value,
   }
   new_hash[:key]
 end
