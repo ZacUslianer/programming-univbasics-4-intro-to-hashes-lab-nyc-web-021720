@@ -31,7 +31,7 @@ def read_from_hash(hash, key)
   new_hash ={
     key => value,
   }
-  new_hash[key]
+  new_hash[:key]
 end
 
 def update_counting_hash(hash, key)
