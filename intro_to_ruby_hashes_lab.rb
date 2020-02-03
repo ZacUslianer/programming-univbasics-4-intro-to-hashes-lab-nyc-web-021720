@@ -21,10 +21,8 @@ def id_generator
   }
 end
 
-def my_hash_creator(key, value)
-  my_hash = {
-    key: value
-  }
+def my_hash_creator(key, value = {})
+  puts
 end
 
 def read_from_hash(hash, key)
